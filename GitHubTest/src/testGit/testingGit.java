@@ -10,8 +10,5 @@ public class testingGit {
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium Tutorial\\chromedriver_win32\\chromedriver.exe");
 		WebDriver WD = new ChromeDriver();
 		WD.get("http://facebook.com");
-		WD.findElement(By.id("email")).sendKeys("Test");
-		String title =WD.getTitle();
-		WD.quit();
 	}
 }
