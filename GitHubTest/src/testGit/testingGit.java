@@ -11,6 +11,7 @@ public class testingGit {
 		WebDriver WD = new ChromeDriver();
 		WD.get("http://facebook.com");
 		WD.findElement(By.id("email")).sendKeys("Test");
+		String title =WD.getTitle();
 		WD.quit();
 	}
 }
